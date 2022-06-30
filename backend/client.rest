@@ -1,0 +1,9 @@
+POST http://localhost:5500/api/verify-otp
+
+Content-Type: application/json
+
+{
+    "phone": "+92 312 1319868",
+     "hash": "4b0e3a9399aa4507663708210c42e7140fd6018228a2190e504df025622d9260.1630733123732",
+     "otp": 5388
+}
